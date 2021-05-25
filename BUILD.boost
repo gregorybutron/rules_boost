@@ -2430,3 +2430,12 @@ boost_library(
 boost_library(
     name = "pfr",
 )
+
+boost_library(
+    name = "vmd",
+    hdrs = [
+        glob([
+            "boost/vmd/*",
+        ]),
+    ],
+)
